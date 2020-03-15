@@ -1,0 +1,21 @@
+{
+  "name": "crypto-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package-linux": "electron-packager . crypto-app --platform=linux --arch=x64 --overwrite --asar --icon=assets/images/btc.png --prune=true --out=release-builds"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.1.1",
+    "electron-packager": "^14.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
