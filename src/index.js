@@ -40,7 +40,7 @@ notifyBtn.addEventListener("click", () => {
 
   let win = new remote.BrowserWindow({
     show: false, // not show, but will show after 'ready-to-show' event
-    frame: false,
+    frame: false, // frameless, no toolbars and such, only webpage
     transparent: true,
     alwaysOnTop: true,
     width: 400,

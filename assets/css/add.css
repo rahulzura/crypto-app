@@ -9,6 +9,7 @@ p.notify {
   margin: 0;
   padding: 20px;
   text-transform: uppercase;
+  -webkit-app-region: drag;
 }
 
 .row2 {
